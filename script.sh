@@ -5,7 +5,7 @@ WORKDIR /build
 
 RUN export GO111MODULE=on 
 RUN go get -u github.com/ybkuroki/go-webapp-sample
-RUN cd /build && git clone https://github.com/AdminTurnedDevOps/go-webapp-sample.git
+RUN cd /build && git clone https://github.com/fabchiby/go-webapp-sample.git
 
 RUN cd /build/go-webapp-sample && go build
 
